@@ -1,6 +1,5 @@
 package com.zy.seckill.common.dao.impl;
 
-import com.zy.seckill.common.bo.dto.LoginLogPageReqDto;
 import com.zy.seckill.common.bo.dto.OperateLogPageReqDto;
 import com.zy.seckill.common.bo.po.OperateLog;
 import com.zy.seckill.common.dao.OperateLogDao;
@@ -19,7 +18,7 @@ import java.util.List;
 
 
 /*
- * @Author zhangyong
+ * @Author liudeyu
  * @Description //OperateLogDao接口实现类
  * @Date 2022/03/02 15:39
  * @Param

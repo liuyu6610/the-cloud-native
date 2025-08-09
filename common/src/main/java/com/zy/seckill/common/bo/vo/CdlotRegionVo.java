@@ -10,9 +10,9 @@ import java.util.List;
 
 
 /**
- * @author zhangyong
- * @description 成都物联感知平台区域vo
- * @date 2023/2/27 15:02
+ * @author liudeyu
+ * @description
+ * @date 2025/7/27 15:02
  * @param
  * @return
  */

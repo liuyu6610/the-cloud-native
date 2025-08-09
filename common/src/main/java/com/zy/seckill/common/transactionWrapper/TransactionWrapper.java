@@ -14,9 +14,9 @@ import java.util.function.Function;
 
 
 /*
- * @Author: zhangyong
+ * @Author: liudeyu
  * description: 事务委托执行器: 把一个执行体(一段执行逻辑)包装成一个事务来执行
- * @Date: 2019/12/10 19:13
+ * @Date: 2025/8/10 19:13
  * @Param:
  * @Return:
  */

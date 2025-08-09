@@ -7,11 +7,11 @@ spring:
     nacos:
       config:
         ext‐config[0]:
-          data‐id: redis.yml
+          data-id: redis.yml
           group: common
           refresh: true
         ext‐config[1]:
-          data‐id: jwt.yml
+          data-id: jwt.yml
           group: common
           refresh: true
     #关闭Spring自带的X-Forwarded-Prefix设置

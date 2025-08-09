@@ -4,7 +4,7 @@ import org.apache.shiro.authc.AuthenticationToken;
 
 
 /*
- * @Author: zhangyong
+ * @Author: liudeyu
  * description:
  *              --1.现在的方法如下:
  *              JwtToken实现AuthenticationToken，以便登录信息可以提交JwtToken，目的是将该用户的信息向shiro登录注册
@@ -13,7 +13,7 @@ import org.apache.shiro.authc.AuthenticationToken;
  *              --2.之前默认的方法如下，login(xx);xx只能传UsernamePasswordToken类型的参数
  *              UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(managerLoginReqDto.getUsername(), managerLoginReqDto.getPassword());
                 SecurityUtils.getSubject().login(usernamePasswordToken);
- * @Date: 2019-12-11 12:39
+ * @Date: 2025-8-11 12:39
  * @Param:
  * @Return:
  */

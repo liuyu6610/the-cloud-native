@@ -3,10 +3,10 @@ package com.zy.seckill.common.valid;
 import javax.validation.groups.Default;
 
 /*
- * @Author: zhangyong
+ * @Author: liudeyu
  * description: 参数检验分组(比如使用对象来接收参数，增加时不需要id，更新时又需要，所以需要分组检验)
  *              分组可用空接口来实现
- * @Date: 2020/3/24 17:01
+ * @Date: 2025/8/24 17:01
  * @Param:
  * @Return:
  */

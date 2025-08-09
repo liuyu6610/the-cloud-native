@@ -9,12 +9,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /*
- * @Author: zhangyong
+ * @Author: liudeyu
  * description: rabbitMq配置(配置队列,交换机及队列和对应交换机绑定)
- * @Date: xxxx-07-23 14:36
+ * @Date: xxxx-07-26 14:36
  * @Param:
  * @Return:
  */
+// TODO: 这里修改为rocketmq如果时间来得及
 @Configuration
 @ConditionalOnProperty(prefix = "spring.rabbitmq", name = "host", matchIfMissing = false)
 public class RabbitConfig {

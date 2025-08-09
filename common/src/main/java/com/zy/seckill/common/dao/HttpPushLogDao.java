@@ -8,9 +8,9 @@ import com.zy.seckill.common.mongo.MongoBaseDao;
 import java.util.List;
 
 /*
- * @Author zhangyong
+ * @Author liudeyu
  * @Description //HttpPushLogDao接口
- * @Date 2023/03/23 11:02
+ * @Date 2025/06/23 11:02
  * @Param
  * @return
  **/

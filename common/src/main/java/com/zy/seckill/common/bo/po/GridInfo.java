@@ -11,8 +11,8 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author jsxa
- * @since 2022-05-17
+ * @author liudeyu
+ * @since 2025-07-17
  */
 @Getter
 @Setter

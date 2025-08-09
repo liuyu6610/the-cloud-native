@@ -7,9 +7,9 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * @Author wangchao
+ * @Author liudeyu
  * @Description  推送给银海的设备类型
- * @Date 2022/7/21 15:09
+ * @Date 2025/7/21 15:09
  * @Param
  * @return
  **/

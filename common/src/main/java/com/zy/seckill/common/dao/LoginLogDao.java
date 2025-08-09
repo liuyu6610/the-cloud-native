@@ -1,16 +1,14 @@
 package com.zy.seckill.common.dao;
 
 import com.zy.seckill.common.bo.dto.LoginLogPageReqDto;
-import com.zy.seckill.common.bo.dto.OperateLogPageReqDto;
 import com.zy.seckill.common.bo.po.LoginLog;
-import com.zy.seckill.common.bo.po.OperateLog;
 import com.zy.seckill.common.mongo.MongoBaseDao;
 import org.springframework.data.domain.Page;
 
 import java.util.List;
 
 /*
- * @Author zhangyong
+ * @Author liudeyu
  * @Description //LoginLogDao接口
  * @Date 2022/03/02 16:01
  * @Param

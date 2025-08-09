@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/doc/cannal/conf/spring/tsdb/sql/create_table.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/doc/nacos/conf/1.4.0-ipv6_support-update.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/doc/nacos/conf/schema.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/doc/proxysql/create_monitor_view.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/doc/sql/seckill_inventory.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/doc/sql/seckill_order.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/doc/sql/seckill_seata.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/doc/sql/seckill_sys.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/doc/sql/seckill_task_center.sql" dialect="GenericSQL" />
+  </component>
+</project>

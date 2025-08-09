@@ -14,9 +14,9 @@ import java.util.List;
 import java.util.concurrent.Executor;
 
 /*
- * @Author zhangyong
+ * @Author liudeyu
  * @Description //app信息推送服务,一个app对应一个JPusher
- * @Date 下午 4:54 2019/7/24 0024
+ * @Date 下午 4:54 2025/7/24 0024
  * @Param
  * @return
  **/

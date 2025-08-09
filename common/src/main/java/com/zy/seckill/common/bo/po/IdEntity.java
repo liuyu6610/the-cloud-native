@@ -6,14 +6,16 @@ package com.zy.seckill.common.bo.po;
 
 
 /*
- * @Author zhangyong
+ * @Author liudeyu
  * @Description //ID实体
- * @Date 上午 9:48 2019/5/27 0027
+ * @Date 上午 9:48 2025/7/27 0027
  * @Param
  * @return
  **/
 
-public class IdEntity implements Entity {
+import java.io.Serializable;
+
+public class IdEntity implements Serializable {
 
 
     private Long id;

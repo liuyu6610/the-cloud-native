@@ -15,7 +15,7 @@ import java.util.Set;
  * 自定义分表规则类
  * </p>
  *
- * @author zhengqingya
+ * @author liudeyu
  * @description 复合分片算法
  * @date xxxx/11/1 11:19
  */

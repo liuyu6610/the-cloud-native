@@ -27,56 +27,88 @@
         <version>2.3.12.RELEASE</version>
         <relativePath/>
     </parent>
-    <!-- 在pom.xml中添加repositories配置 -->
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-    <repository>
-        <id>aliyun</id>
-        <url>https://maven.aliyun.com/repository/public</url>
-    </repository>
-</repositories>
+    <repositories>
+        <!-- 1. 阿里云仓库（包含大部分国内常用依赖） -->
+        <repository>
+            <id>aliyun</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases><enabled>true</enabled></releases>
+            <snapshots><enabled>false</enabled></snapshots>
+        </repository>
+        <!-- 阿里云镜像（加速国内下载） -->
+        <repository>
+            <id>aliyun-shardingsphere</id>
+            <url>https://maven.aliyun.com/repository/apache-snapshots</url>
+        </repository>
+
+
+        <!-- 2. Maven中央仓库（官方仓库） -->
+        <repository>
+            <id>maven-central</id>
+            <url>https://repo1.maven.org/maven2</url>
+        </repository>
+
+        <!-- 3. Spring官方仓库（Spring相关依赖） -->
+        <repository>
+            <id>spring-milestones</id>
+            <url>https://repo.spring.io/milestone</url>
+        </repository>
+        <!-- 补充Jest所在的Maven中央仓库镜像 -->
+        <repository>
+            <id>central</id>
+            <url>https://maven.aliyun.com/repository/central</url>
+        </repository>
+
+        <!-- 4. JitPack仓库（仅作为补充，放最后） -->
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
 
     <properties>
+        <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-        <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
-        <spring-cloud-alibaba.version>2.2.8.RELEASE</spring-cloud-alibaba.version>
-        <openfeign.version>2.2.5.RELEASE</openfeign.version>
-        <nacos.version>2.1.0.RELEASE</nacos.version>
-        <swagger.version>2.9.2</swagger.version>
+        <!-- 框架版本升级 -->
+        <spring-boot.version>2.7.18</spring-boot.version>
+        <spring-cloud.version>2021.0.9</spring-cloud.version>
+        <spring-cloud-alibaba.version>2021.0.5.0</spring-cloud-alibaba.version>
+        <openfeign.version>3.1.5</openfeign.version>
+        <nacos.version>2.2.3</nacos.version>
+
+        <swagger.version>3.0.0</swagger.version>
         <maven.test.skip>true</maven.test.skip>
-        <mysql.version>8.0.27</mysql.version>
-        <mybatis.version>1.3.2</mybatis.version>
-        <mybatis-generator.version>1.3.7</mybatis-generator.version>
+        <mysql.version>8.0.33</mysql.version>
+        <mybatis.version>3.5.13</mybatis.version>
+        <mybatis-spring-boot-starter.version>2.3.1</mybatis-spring-boot-starter.version>
+        <mybatis-generator.version>1.4.1</mybatis-generator.version>
         <mybatis-dynamic-sql.version>1.1.4</mybatis-dynamic-sql.version>
-        <pagehelper.version>1.2.5</pagehelper.version>
+        <pagehelper.version>1.4.6</pagehelper.version>
         <orderbyhelper.version>1.0.2</orderbyhelper.version>
         <commons-lang3.version>3.4</commons-lang3.version>
-        <jjwt.version>0.10.6</jjwt.version>
-        <elasticsearch.version>7.9.3</elasticsearch.version>
-        <jest.version>6.3.1</jest.version>
-        <redis.version>1.4.1.RELEASE</redis.version>
-        <redisson.version>3.12.5</redisson.version>
+        <jjwt.version>0.11.5</jjwt.version>
+        <elasticsearch.version>7.12.1</elasticsearch.version>
+        <redis.version>2.7.18</redis.version> <!-- 替换为data-redis -->
+        <redisson.version>3.23.3</redisson.version>
         <sharding.jdbc.version>4.1.1</sharding.jdbc.version>
-        <aliyun-sdk-oss.version>2.4.0</aliyun-sdk-oss.version>
-        <commons-fileupload.version>1.3.1</commons-fileupload.version>
-        <fastdfs-client.version>1.26.1-RELEASE</fastdfs-client.version>
-        <alipay-sdk-java.version>4.9.153.ALL</alipay-sdk-java.version>
-        <admin-starter-server.version>2.2.3</admin-starter-server.version>
-        <docker.maven.plugin.version>1.0.0</docker.maven.plugin.version>
+        <aliyun-sdk-oss.version>3.16.1</aliyun-sdk-oss.version> <!-- 升级至新版 -->
+        <commons-fileupload.version>1.5</commons-fileupload.version>
+        <fastdfs-client.version>1.29.0</fastdfs-client.version> <!-- 社区维护版 -->
+        <alipay-sdk-java.version>4.34.0.ALL</alipay-sdk-java.version>
+        <admin-starter-server.version>2.7.16</admin-starter-server.version>
+        <docker.maven.plugin.version>1.4.13</docker.maven.plugin.version>
         <docker.host>http://172.16.1.241:2375</docker.host>
-        <logstash.version>5.3</logstash.version>
-        <undertow.version>2.2.5.RELEASE</undertow.version>
+        <logstash.version>7.0.1</logstash.version>
+        <undertow.version>2.3.8.Final</undertow.version>
 
         <common.version>1.0.0</common.version>
         <bid-api.version>1.0.0</bid-api.version>
         <sys-api.version>1.0.0</sys-api.version>
         <taskCenter-api.version>1.0.0</taskCenter-api.version>
+        <order-api.version>1.0.0</order-api.version>
+        <inventory-api.version>1.0.0</inventory-api.version>
     </properties>
 
     <dependencies>
@@ -114,7 +146,7 @@
                 <version>${order-api.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.zy.seckills</groupId>
+                <groupId>com.zy.seckill</groupId>
                 <artifactId>inventory-api</artifactId>
                 <version>${inventory-api.version}</version>
             </dependency>
@@ -173,8 +205,8 @@
             <!--redis-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-redis</artifactId>
-                <version>${redis.version}</version>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>${redis.version}</version> <!-- 与Spring Boot版本一致 -->
             </dependency>
             <dependency>
                 <groupId>org.redisson</groupId>
@@ -193,7 +225,7 @@
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>${mybatis.version}</version>
+                <version>${mybatis-spring-boot-starter.version}</version>
             </dependency>
 
             <!--mybatis动态sql-->
@@ -203,15 +235,35 @@
                 <version>${mybatis-dynamic-sql.version}</version>
             </dependency>
 
-            <!-- sharding jdbc依赖 -->
+            <!-- 修正groupId（io→org.apache），保持版本兼容性 -->
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>org.apache.shardingsphere</groupId> <!-- 官方已迁移至apache -->
                 <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
                 <version>${sharding.jdbc.version}</version>
             </dependency>
+            <!-- namespace依赖（4.1.1版本需要单独引入） -->
+            <!-- 命名空间依赖（4.1.1版本的正确artifactId） -->
             <dependency>
-                <groupId>io.shardingsphere</groupId>
-                <artifactId>sharding-jdbc-spring-namespace</artifactId>
+                <groupId>org.apache.shardingsphere</groupId>
+                <artifactId>sharding-jdbc-spring-namespace</artifactId> <!-- 修正artifactId -->
+                <version>${sharding.jdbc.version}</version>
+                <!-- 排除冲突的Spring依赖 -->
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>spring-core</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>spring-beans</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!-- 补充ShardingSphere核心包（确保依赖完整性） -->
+            <dependency>
+                <groupId>org.apache.shardingsphere</groupId>
+                <artifactId>sharding-jdbc-core</artifactId>
                 <version>${sharding.jdbc.version}</version>
             </dependency>
 
@@ -272,9 +324,9 @@
                 <version>${elasticsearch.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.searchbox</groupId>
-                <artifactId>jest</artifactId>
-                <version>${jest.version}</version>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
             </dependency>
 
             <!--集成logstash-->

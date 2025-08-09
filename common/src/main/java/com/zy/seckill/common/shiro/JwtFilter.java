@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /*
- * @Author: zhangyong
+ * @Author: liudeyu
  * description: jwt过滤器(只需要有token即可正常访问接口,因为gateway已经验证过一次，无需再次验证token)
- * @Date: 2019-12-11 12:35
+ * @Date: 2025-8-11 12:35
  * @Param:
  * @Return:
  */

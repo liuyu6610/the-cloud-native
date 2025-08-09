@@ -7,9 +7,9 @@ import lombok.experimental.Accessors;
 
 
 /*
- * @Author: zhangyong
- * description: 成都物联感知平台区域
- * @Date: xxxx-02-01 10:26
+ * @Author: liudeyu
+ * description:
+ * @Date: xxxx-07-01 10:26
  * @Param:
  * @Return:
  */

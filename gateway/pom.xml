@@ -98,7 +98,8 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-redis</artifactId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <version>${redis.version}</version> <!-- 确保父POM中定义了此变量 -->
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>

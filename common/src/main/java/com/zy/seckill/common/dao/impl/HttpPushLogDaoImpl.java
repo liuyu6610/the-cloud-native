@@ -19,9 +19,9 @@ import java.util.Set;
 
 
 /*
- * @Author zhangyong
+ * @Author liudeyu
  * @Description //HttpPushLogDao接口实现类
- * @Date 2023/03/23 11:02
+ * @Date 2025/06/23 11:02
  * @Param
  * @return
  **/

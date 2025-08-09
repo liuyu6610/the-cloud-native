@@ -18,9 +18,9 @@ import java.util.List;
 
 
 /*
- * @Author zhangyong
+ * @Author liudeyu
  * @Description //LoginLogDao接口实现类
- * @Date 2022/03/02 16:01
+ * @Date 2025/06/02 16:01
  * @Param
  * @return
  **/

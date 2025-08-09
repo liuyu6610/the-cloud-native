@@ -14,8 +14,8 @@ import java.util.stream.Collectors;
 
 
 /*
- * @Author: zhangyong
- * description: 封装通用分页数据,接收PageHelper、SpringData等框架的分页数据，转换成通用的PageBean对象
+ * @Author: liudeyu
+ * description:
  * @Date: xxxx-05-07 11:49
  * @Param:
  * @Return:

@@ -13,7 +13,6 @@ import org.springframework.data.redis.cache.RedisCacheWriter;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.data.redis.listener.RedisMessageListenerContainer;
 import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.RedisSerializationContext;
@@ -23,9 +22,9 @@ import java.lang.reflect.Method;
 import java.time.Duration;
 
 /*
- * @Author: zhangyong
+ * @Author: liudeyu
  * description: redis配置类
- * @Date: 2020-05-05 10:45
+ * @Date: 2025-07-05 10:45
  * @Param:
  * @Return:
  */

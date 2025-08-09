@@ -7,18 +7,18 @@ spring:
     nacos:
       config:
         ext‐config[0]:
-          data‐id: redis.yml
+          data-id: redis.yml
           group: common
           refresh: true
         ext‐config[1]:
-          data‐id: mongo.yml
+          data-id: mongo.yml
           group: common
           refresh: true
         ext‐config[2]:
-          data‐id: jwt.yml
+          data-id: jwt.yml
           group: common
           refresh: true
         ext‐config[3]:
-          data‐id: minio.yml
+          data-id: minio.yml
           group: common
           refresh: true

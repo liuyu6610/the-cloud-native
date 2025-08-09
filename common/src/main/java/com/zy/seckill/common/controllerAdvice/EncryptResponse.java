@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
 /*
- * @Author: zhangyong
+ * @Author: liudeyu
  * description: 数据返回时的加密
  * @Date: xxxx-08-31 10:26
  * @Param:

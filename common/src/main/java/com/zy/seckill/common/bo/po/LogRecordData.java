@@ -10,9 +10,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
 /*
- * @Author wangchao
+ * @Author liudeyu
  * @Description  设备日志记录
- * @Date 2023/1/3 10:20
+ * @Date 2025/7/3 10:20
  * @Param
  * @return
  **/

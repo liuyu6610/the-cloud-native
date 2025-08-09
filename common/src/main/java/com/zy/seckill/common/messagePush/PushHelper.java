@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * @Author zhangyong
+ * @Author liudeyu
  * @Description //信息推送助手
- * @Date 下午 4:42 2019/7/24 0024
+ * @Date 下午 4:42 2025/7/24 0024
  * @Param
  * @return
  **/
@@ -38,9 +38,9 @@ public class PushHelper {
     }
 
     /*
-     * @Author zhangyong
+     * @Author liudeyu
      * @Description //2.多个推送
-     * @Date 下午 4:44 2019/5/14 0014
+     * @Date 下午 4:44 2025/7/14 0014
      * @Param
      * @return
      **/

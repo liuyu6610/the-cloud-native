@@ -10,7 +10,7 @@ import java.util.List;
 
 
 /*
- * @Author: zhangyong
+ * @Author: liudeyu
  * description: 数据字典vo
  * @Date: xxxx-02-01 10:26
  * @Param:

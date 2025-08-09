@@ -10,9 +10,9 @@ import java.io.Serializable;
 
 
 /*
- * @Author: zhangyong
+ * @Author: liudeyu
  * description: 数据字典
- * @Date: xxxx-02-01 09:15
+ * @Date: xxxx-07-01 09:15
  * @Param:
  * @Return:
  */

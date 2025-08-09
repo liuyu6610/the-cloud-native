@@ -2,7 +2,6 @@ package com.zy.seckill.common.config;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import com.zy.seckill.common.utils.ThreadUtil;
-import io.netty.util.concurrent.SingleThreadEventExecutor;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -12,6 +11,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import java.util.concurrent.*;
 
 //线程池配置
+//TODO: 线程池配置
 @Configuration
 public class ThreadPoolConfig
 {
