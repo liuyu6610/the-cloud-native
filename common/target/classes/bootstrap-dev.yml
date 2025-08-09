@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.2.243:8848
+        file-extension: yml
+        group: ${spring.application.name}
+        namespace: 1b5ae8e4-a999-4b76-9219-a51f20bbc1b2
+      discovery:
+        server-addr: 192.168.2.243:8848
+        namespace: 1b5ae8e4-a999-4b76-9219-a51f20bbc1b2
